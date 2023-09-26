@@ -36,6 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   a.Select the previously created resource group and Vnet.
 - Use remote desktop to conect to your Windows 10 virtual machine.
 
+
   a. For Mac users download and install Microsoft Remote Desktop.
 
 <h2>Actions and Observations</h2>
