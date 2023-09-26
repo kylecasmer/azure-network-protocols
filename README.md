@@ -25,10 +25,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resource Group
+- Create Windows 10 virtual machine (VM)
+  a.While creating th VM, select the previously created resource group.
+  b.Also it to create a new virtual network (Vnet) and subnet.
+- Next create a Linux (Ubuntu) virtual machine (VM).
+- a.Select the previously created resource group and Vnet.
+- Use remote desktop to conect to your Windows 10 virtual machine.
+  a. For Mac users download and install Microsoft Remote Desktop.
 
 <h2>Actions and Observations</h2>
 
