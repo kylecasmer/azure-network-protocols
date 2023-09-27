@@ -30,7 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
   a.While creating th VM, select the previously created resource group.
 
-  b.Also it to create a new virtual network (Vnet) and subnet.
+  b.Also allow the VM to create a new virtual network (Vnet) and subnet.
 - Next create a Linux (Ubuntu) virtual machine (VM).
 
   a.Select the previously created resource group and Vnet.
