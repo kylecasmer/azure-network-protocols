@@ -57,6 +57,7 @@ In the tutorial below, I will observe various network traffic to and from Azure 
 <p> 3.Use Remote Dsktop to connect to Windows VM
 <p> 4.Install Wireshark in Windows VM
 
+[img]https://i.imgur.com/tsLSjR4.png[/img]
 </p>
 <br />
 
