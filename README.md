@@ -52,8 +52,10 @@ In the tutorial below, I will observe various network traffic to and from Azure 
 <p> 2.Create a Windows VM and a Linux VM
 
 <p> <img src="https://i.imgur.com/0lZWDUw.png height="80%" width="80%" alt="[Disk](https://) Sanitization Steps"/>
-</p>
-<p>
+
+  
+<p> 3.Use Remote Dsktop to connect to Windows VM
+<p> 4.Install Wireshark in Windows VM
 
 </p>
 <br />
