@@ -48,8 +48,8 @@ In the tutorial below, I will observe various network traffic to and from Azure 
 
 <h2>Actions and Observations</h2>
 
-1.Create a resource group in Azure
-2.Create a Windows VM and a Linux VM
+<p> 1.Create a resource group in Azure
+<p> 2.Create a Windows VM and a Linux VM
 
 <p> <img src="https://i.imgur.com/0lZWDUw.png height="80%" width="80%" alt="[Disk](https://) Sanitization Steps"/>
 </p>
