@@ -3,12 +3,9 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In the tutorial below, I will observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,19 +22,29 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create Resource Group
-- Create Windows 10 virtual machine (VM)
-
-  a.While creating th VM, select the previously created resource group.
-
-  b.Also allow the VM to create a new virtual network (Vnet) and subnet.
-- Next create a Linux (Ubuntu) virtual machine (VM).
-
-  a.Select the previously created resource group and Vnet.
-- Use remote desktop to conect to your Windows 10 virtual machine.
-
-
-  a. For Mac users download and install Microsoft Remote Desktop.
+- Create a resource group within Azure
+- Create a Windows VM and a Linux VM
+- Use Remote Desktop to connect to Windows VM
+- Install Wireshark in Windows VM
+- Filter by ICMP traffic in Windows VM
+- Ping the private IP address of Linux VM from Windows VM
+- In Windows VM, open Powershell, ping a public address, and observe traffic in Wireshark
+- Initiate non--stop ping from Windows VM to Linux VM
+- Open the Network Security Group that Linux VM is using and disable ICMP traffic
+- Observe ICMP traffic in Wireshark
+- Re-enable ICMP traffic
+- Observe ICMP traffic in Wireshark again
+- Filter for SSH traffic in Wireshark
+- Type commands into Linux VM and observe the SSH traffic in Wireshark
+- Filter for DHCP traffic in Wireshark
+- Issue a new IP address in Windows VM from the command line
+- Observe DHCP traffic in Wireshark
+- Filter for DNS traffic in Wireshark
+- Use nslookup in command line to find what the IP addresses are for a few public websites
+- Observe DNS traffic in Wireshark
+- Filter for RDP traffic in Wireshark
+- Observe the non-stop spam of traffic
+- Close Remote Desktop and delete the resource groups/VMs
 
 <h2>Actions and Observations</h2>
 
