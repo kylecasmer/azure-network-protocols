@@ -58,6 +58,7 @@ In the tutorial below, I will observe various network traffic to and from Azure 
 <p> 4.Install Wireshark in Windows VM
 
 
+
 <img src="https://i.imgur.com/tsLSjR4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
