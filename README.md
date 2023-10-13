@@ -67,7 +67,101 @@ In the tutorial below, I will observe various network traffic to and from Azure 
 
 <img src="https://i.imgur.com/vxCTb2a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 
+<p> 6.Ping the private IP address of Linux VM from Windows VM using Windows Powershell
 </p>
-<br />
+
+
+<img src="https://i.imgur.com/ij2FThu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p> 7.In Windows VM, open Powershell, ping a public address, and observe traffic in Wireshark
+
+
+<img src="https://i.imgur.com/83D0ezU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p> 8. Initiate non-stop ping from Windows VM to Linux VM
+</p>
+
+
+<img src="https://i.imgur.com/mtRrYIe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p> 9. Open the Network Security Group that Linux VM is using and disable ICMP traffic
+</p>
+
+
+<img src="https://i.imgur.com/Ji0DcZv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<p> 10. Observe ICMP traffic in Wireshark
+
+
+
+<img src="https://i.imgur.com/lAUHJ4g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p> 11. Re-enable ICMP traffic
+<p> 12. Ovserve ICMP traffic in Wireshark again
+<p> 13. Filter for SSH traffic in Wireshark
+
+
+
+<img src="https://i.imgur.com/DpiIY01.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<p> 14. Type commands into Linux VM and observe the SSH traffic in Wireshark
+</p>
+
+
+<img src="https://i.imgur.com/5nZE5sX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<P> 15. Filter DHCP traffic in Wireshark
+</P>
+
+
+<img src="https://i.imgur.com/Vznb62B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<P> 16. Issue a new IP address in Windows VM from the command line
+<P> 17. Observe DHCP traffic in Wireshark
+
+
+
+<img src="https://i.imgur.com/HdlWkTf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<P> 18. Filter for DNS traffic in Wireshark
+
+
+<img src="https://i.imgur.com/DToPbag.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<P> 19. Use nslookup in command line to find what the IP addresses are for a few pulic websites
+</P>
+
+
+
+<img src="https://i.imgur.com/WaYRDDb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<p> 20. Observe DNS traffic in Wireshark
+<p> 21. Filter for RDP traffic in Wireshark
+
+
+
+<img src="https://i.imgur.com/B5uMhvT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<p> 22. Observe the non-stop spam of traffic
+<p> 23.Close Remote Desktop and delete the resource groups/VMs
